@@ -34,6 +34,7 @@ export default function StarRating({
   const [tempRating, setTempRating] = useState(0);
 
   function handleRating(rating) {
+    console.log("rating",rating);
     setRating(rating);
     onSetRating(rating);
   }
